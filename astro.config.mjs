@@ -4,10 +4,15 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://newjersey.github.io',
+	base: "/innovation-data-and-policy",
 	integrations: [
 		starlight({
 			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/newjersey/innovation-data-and-policy' }],
+			editLink: {
+				baseUrl: 'https://github.com/newjersey/innovation-data-and-policy/edit/main/',
+			},
 			sidebar: [
 				{
 					label: 'Guides',
