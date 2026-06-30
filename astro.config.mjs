@@ -25,6 +25,10 @@ export default defineConfig({
 					label: 'Reference',
 					items: [{ autogenerate: { directory: 'reference' } }],
 				},
+				{
+					label: 'Analytics',
+					items: [{autogenerate: { directory: 'analytics' } }],
+				}
 			],
 		}),
 	],
